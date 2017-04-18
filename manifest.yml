@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: test1krap
+  host: test1krap
+  disk_quota: 1024M
+  services:
+  - test1krap-cloudantNoSQLDB
+  - Text to Speech-1m
+  - Language Translator-46
+  - Speech to Text-79
